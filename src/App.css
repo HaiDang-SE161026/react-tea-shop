@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +28,112 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.row-content {
+  margin: 0px auto;
+  padding: 10px 0px 30px 0px;
+  border-bottom: 1px ridge;
+}
+
+.row-content .form-check {
+  margin: 0px auto;
+  padding: 10px 0px 10px 0px;
+}
+
+form button {
+  background-color: #639a67 !important;
+}
+
+.navbar-dark {
+  background-color: #639a67;
+}
+
+.footer {
+  background-color: #639a67;
+}
+
+.footer-left {
+  text-align: right;
+  color: floralwhite;
+  background-color: #639a67;
+  ;
+}
+
+.footer-right {
+  position: relative;
+  background-color: #cdbb75;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-right a {
+  color: black;
+  text-decoration: none !important;
+}
+
+.jumbotron {
+  background-color: #61dafb;
+  background-size: cover;
+  height: 200px;
+  color: #cdbb75;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  min-height: 900px;
+}
+
+.heading {
+  text-align: center;
+  background-color: #639a67;
+  padding: 10px 0;
+  color: floralwhite;
+  margin-bottom: 30px;
+}
+
+.card img{
+  width: 100%;
+  height: 250px;
+}
+
+.card{
+  background-color: #cdbb75 !important;
+  color: floralwhite;
+  text-align: center;
+}
+
+.media{
+  background-color: #cdbb75;
+  margin: 5px;
+  color: floralwhite;
+  padding: 10px 10px 10px 10px;
+}
+
+.modal.fade {
+  opacity: 1;
+}
+
+.modal-dialog{
+  max-width: 100vw;
+}
+
+.modal-content{
+  position: fixed !important;
+  background-color: #9eac6f!important;
+  border: solid #639a67 !important;
+  max-width: 100vw;
+}
+
+.modal-content .modal-header{
+  color: floralwhite;
+}
+.modal-content .modal-body{
+  background-color: #cdbb75 !important;
+}
+
